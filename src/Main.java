@@ -22,7 +22,7 @@ public class Main {
             printMethod("Average weekly pay of all employees in all of the departments except sales department ",
                     getAllMinSalesDeptAverage(salary, jobs));
 
-            int lowestSalaryJob = getLowestSalaryJob(jobs, salary);
+            int lowestSalaryJob = getLowestSalaryJob(salary);
             System.out.println("The job title corresponding to the employee with the lowest salary: " + jobs[lowestSalaryJob]);
 
 
